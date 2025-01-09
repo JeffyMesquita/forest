@@ -110,7 +110,7 @@ export default function Home() {
             <li className="opacity-0 animate-slide-in animate-2">
               <a
                 className="block p-4 lg:hover:underline lg:hover:underline-offset-8 max-lg:hover:bg-white/10 lg:px-0 lg:py-2"
-                href="#ventos"
+                href="#eventos"
               >
                 Eventos
               </a>
@@ -203,7 +203,7 @@ export default function Home() {
       </main>
 
       <section
-        id="acomodadões"
+        id="acomodacoes"
         className="container pt-16 mb-12 sm:mb-16 grid gap-8 lg:grid-cols-[2fr_3fr] radial-gradient"
       >
         <div className="content-end bg-[url('/img/padrao.svg')] bg-no-repeat bg-contain bg-left-bottom">
