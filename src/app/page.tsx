@@ -43,13 +43,9 @@ export default function Home() {
     if (temperatura === 0) {
       return;
     } else {
-      console.log("Temperatura", temperatura);
-
       const tempoAtual = temperatura > 25 ? 0 : 1;
 
       const videoSource = videos[tempoAtual];
-
-      console.log("Video", videoSource);
 
       setVideoSrc(`/img/${videoSource}`);
     }
