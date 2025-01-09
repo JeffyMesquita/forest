@@ -25,8 +25,6 @@ export default function Home() {
     return `/img/${videos[tempoAtual]}`;
   });
 
-  useEffect(() => {}, []);
-
   useEffect(() => {
     const tempos = ["☀️", "🌧️"];
 
